@@ -86,14 +86,19 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Left content section styling */
+/* Left content section  */
 .text-section {
-    max-width: 50%; /* Limits the width of the text to 50% of the container */
+    max-width: 50%; 
 }
 
 .text-section h1 {
     font-size: 2em;
     margin-bottom: 15px;
+}
+
+.text-section h3 {
+    font-size: 2em;
+    margin-bottom: 15px; 
 }
 
 .text-section p {
@@ -102,7 +107,7 @@ p {
     margin-bottom: 10px;
 }
 
-/* Right image section styling */
+/* Right image section  */
 .image-section img {
     max-width: 100%;
     border-radius: 10px;
