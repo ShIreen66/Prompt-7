@@ -10,3 +10,100 @@ body {
     height: 100%;
 
 }
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+nav {
+    background-color: #f0fefd; /* Dark background color */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Navigation Links */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+ul li a:hover {
+    background-color: rgb(88, 74, 74); /* Hover effect */
+    border-radius: 5px;
+    color: pink;
+}
+
+
+button {
+    width: 80px;
+    height: 30px;
+    background-color: #f0fefd;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(230, 230, 96); /* Hover effect */
+    border-radius: 10px;
+}
+
+p {
+    gap: 9px;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left content section styling */
+.text-section {
+    max-width: 50%; /* Limits the width of the text to 50% of the container */
+}
+
+.text-section h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.text-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Right image section styling */
+.image-section img {
+    max-width: 100%;
+    border-radius: 10px;
+}
